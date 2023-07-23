@@ -1,0 +1,145 @@
+.top{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    width:  100%;
+    background-color: darkblue;
+    color: aqua;
+    padding-top: 20px;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.home{
+    text-decoration: none;
+    color: pink;
+    font-size: xx-large;
+    font-family: 'Lumanosimo', cursive;
+}
+.student{
+    text-decoration: none;
+    color: pink;
+    font-size: xx-large;
+    font-family: 'Lumanosimo', cursive;
+    flex-wrap: wrap;
+
+}
+.contact{
+    text-decoration: none;
+    color: pink;
+    font-size: xx-large;
+    font-family: 'Lumanosimo', cursive;
+
+}
+
+.form{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.all{
+    position: relative;
+    top: 20px;
+}
+.btn{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+}
+
+.btn1{
+    cursor: pointer;
+    /* position: absolute;
+    top: 260px;
+    right: 150px; */
+    border-radius: 35px;
+    background-color: lightblue;
+    border: 2px solid black;
+    height: 50px;
+    width: 200px;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 80px;
+
+}
+
+.btn2{
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 80px;
+
+    /* position: absolute;
+    top: 260px; */
+    border-radius: 35px;
+    background-color: lightblue;
+    border: 2px solid black;
+    height: 50px;
+    width: 200px;
+    justify-content: flex-end;
+}
+
+.btn1:hover{
+    background-color: gray;
+}
+.btn2:hover{
+    background-color: gray;
+}
+
+
+/* //---------------------------------------------------------- */
+table{
+    border-collapse: collapse;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: white;
+    width: 60%;
+    height: 60%;
+}
+
+th,td{
+    padding: 5px 5px;
+}
+
+tr:nth-child(odd){
+    background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (min-width:300px) and (max-width:500px){
+    body{
+        min-height: 100vh;
+    }
+
+    .top{
+        min-width: 100%;
+    }
+} */

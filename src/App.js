@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Routecompo from './Handson4/Routecompo'
+import { BrowserRouter } from 'react-router-dom'
+import LinkCompo from './Handson4/LinkCompo'
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div>
+      
+
+      <BrowserRouter>
+      <LinkCompo/>
+
+      <Routecompo/>
+      </BrowserRouter>
+
+      {/* <Routecompo/> */}
     </div>
-  );
+
+
+  )
 }
 
 export default App;
